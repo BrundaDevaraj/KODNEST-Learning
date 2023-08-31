@@ -1,9 +1,0 @@
-package methodswithoperator3;
-
-public class bitwiseswapperapp {
-	public static int swapUsingBitwise()
-	{
-		return 0;
-	}
-
-}

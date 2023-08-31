@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Users\Brunda2021\PRACTICE-PROGRAMS\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-3413725848.index
-1218824657.index

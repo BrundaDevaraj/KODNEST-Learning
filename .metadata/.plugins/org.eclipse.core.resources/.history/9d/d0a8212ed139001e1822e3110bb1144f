@@ -1,9 +1,0 @@
-package methpdswithoperator2;
-
-public class logicaloperatorvalidator {
-	public static void main(String[] args) {
-		Scanner scan=new Scanner(System.in);
-		System.out.println("enter");
-	}
-
-}
