@@ -1,0 +1,19 @@
+package methodswithoperator4;
+
+import java.util.Scanner;
+
+import mathodswithoperators.Taxcalculatorapp;
+
+public class bitcounterapp {
+	public static void main(String args[])  
+    {  
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int number=scan.nextInt();
+        bitcounter.countSetBits(number);
+        System.out.println("number of set bits: "+count);
+        Taxcalculatorapp taxcalculatorapp=new Taxcalculatorapp();
+		double Totalcost=taxcalculatorapp.calculateTotalWithTax(purchaseamount,taxrate);
+		System.out.println("Total cost including tax: "+Totalcost);
+}
+}

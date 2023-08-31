@@ -1,0 +1,15 @@
+package methodswithoperator4;
+
+import java.util.Scanner;
+
+public class bitcounterapp {
+	public static void main(String args[])  
+    {  
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter the number");
+        int n=scan.nextInt();
+        System.out.println(Integer.toBinaryString(n));  
+        System.out.println(Integer.bitCount(n));
+
+}
+}

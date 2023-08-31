@@ -1,0 +1,14 @@
+package methodswithoperator3;
+
+public class bitwiseswapperapp {
+	public static int swapUsingBitwise(int  num1,int num2)
+	{
+		int temp;  
+		temp = stn.num1;  
+		stn.num1 = stn.num2;  
+		stn.num2 = temp;
+		return stn;
+				
+	}
+
+}

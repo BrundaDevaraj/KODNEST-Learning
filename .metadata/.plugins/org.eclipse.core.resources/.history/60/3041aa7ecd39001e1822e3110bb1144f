@@ -1,0 +1,10 @@
+package mathodswithoperators;
+
+public class Taxcalculatorapp {
+	public static double calculateTotalWithTax(double purchaseamount,double taxrate)
+	{
+		double T=purchaseamount*taxrate;
+		return T;
+	}
+
+}

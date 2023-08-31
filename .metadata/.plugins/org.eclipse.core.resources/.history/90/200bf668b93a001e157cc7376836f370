@@ -1,0 +1,13 @@
+package methpdswithoperator2;
+import java.util.Scanner;
+
+public class logicaloperatorvalidator {
+	 public static boolean isValidInput(boolean isInputValid, boolean meetscertainCondition)
+	    {
+	        
+	        return isInputValid && meetscertainCondition;
+	    }
+
+	}
+
+}

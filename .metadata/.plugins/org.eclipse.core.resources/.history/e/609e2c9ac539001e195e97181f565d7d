@@ -1,0 +1,22 @@
+package method2;
+
+import java.util.Scanner;
+
+public class TemperatureConversion {
+	public static void main(String[] args) {
+		Scanner scan= new Scanner(System.in);
+		System.out.println("welcom to the temperature conversion tool");
+		System.out.println("select an option:");
+		System.out.println("1.convert from celcioous to fahreneit");
+		System.out.println("2.fahreniet to celcious");
+		System.out.println("enter your choice");
+		System.out.println("enter the temperature in celcius");
+		double C=scan.nextDouble();
+		double F=scan.nextDouble();
+		TemperatureConversionapp temperatureconversionapp=new TemperatureConversionapp();
+		double C=temperatureconversionapp.celsiusToFahrenheit(celsius);
+		System.out.println(C+"is equivelent to"+F);
+	}
+	
+
+}

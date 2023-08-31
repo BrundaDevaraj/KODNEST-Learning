@@ -1,0 +1,57 @@
+package methodswithoperator;
+
+import java.util.Scanner;
+
+public class methodoverloadingcalsulatorapp {
+	
+	    public static double calculate(double num1, double num2, String operation) {
+	        switch (operation) {
+	            case "add":
+	                return num1 + num2;
+	            case "subtract":
+	                return num1 - num2;
+	            default:
+	                throw new IllegalArgumentException("Invalid operation: " + operation);
+	        }
+	    }
+
+	    public static int calculate(int num1, int num2, char operation) {
+	        switch (operation) {
+	            case '+':
+	                return num1 + num2;
+	            case '-':
+	                return num1 - num2;
+	            default:
+	                throw new IllegalArgumentException("Invalid operation: " + operation);
+	        }
+	    }
+
+	    public static double calculate(double num1, double num2, char operation) {
+	        switch (operation) {
+	            case '+':
+	                return num1 + num2;
+	            case '-':
+	                return num1 - num2;
+	            default:
+	                throw new IllegalArgumentException("Invalid operation: " + operation);
+	        }
+	    }
+
+	    public static double calculate(double num1, double num2, int operation) {
+	        switch (operation) {
+	            case 1:
+	                return num1 + num2;
+	            case 2:
+	                return num1 - num2;
+	            default:
+	                throw new IllegalArgumentException("Invalid operation: " + operation);
+	        }
+	    }
+
+	    public static void main(String[] args) {
+	        System.out.println(calculate(10.5, 5.2, "add"));
+	        System.out.println(calculate(10, 5, '+'));      
+	        System.out.println(calculate(10.5, 5.2, '-'));  
+	        System.out.println(calculate(10.5, 5.2, 1));    
+	    }
+	}

@@ -1,0 +1,11 @@
+package methodswithoperator4;
+
+import java.util.Scanner;
+
+public class bitcounter {
+	void countSetBits(int number)
+	{
+		
+	}
+
+}

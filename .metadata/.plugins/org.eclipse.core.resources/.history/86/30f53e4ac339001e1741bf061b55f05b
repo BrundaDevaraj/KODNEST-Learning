@@ -1,0 +1,13 @@
+package method2;
+
+import java.util.Scanner;
+
+public class TemperatureConversion {
+	public static void main(String[] args) {
+		Scanner scan= new Scanner(System.in);
+		System.out.println("enter the valuew to convert from celcioous to fahreneit");
+		double C=
+	}
+	
+
+}

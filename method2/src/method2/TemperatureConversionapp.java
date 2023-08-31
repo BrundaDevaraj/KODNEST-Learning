@@ -1,0 +1,16 @@
+package method2;
+
+public class TemperatureConversionapp {
+	public static double celsiusToFahrenheit(double celsius)
+	{
+		double F=(celsius * 9/5) + 32;
+		return F;
+	}
+	public static double fahrenheitToCelsius(double fahrenheit) 
+	{
+		double C=(fahrenheit - 32) *5/9;
+		return C;
+	}
+
+	
+}

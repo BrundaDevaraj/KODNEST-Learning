@@ -1,0 +1,20 @@
+package methpdswithoperator2;
+
+public class logicalopeartorvalidatorapp {
+	    public static boolean isValidInput(boolean isInputValid, boolean meetscertainCondition) {
+	        
+	        return isInputValid && meetscertainCondition;
+	    }
+
+	    public static void main(String[] args) {
+	        boolean isInputValid = true; 
+	        boolean meetsCondition = true; 
+	        boolean isValid = isValidInput(isInputValid, meetsCondition);
+
+	        if (isValid) {
+	            System.out.println("Input is valid.");
+	        } else {
+	            System.out.println("Input is not valid.");
+	        }
+	    }
+	}

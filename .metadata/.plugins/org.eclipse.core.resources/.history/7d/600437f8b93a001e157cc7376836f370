@@ -1,0 +1,29 @@
+package methpdswithoperator2;
+
+import java.util.Scanner;
+
+public class logicalopeartorvalidatorapp {
+		boolean true,false;
+	    public static boolean isValidInput(boolean isInputValid, boolean meetscertainCondition)
+	    {
+	        true=true && true;
+	        false=true && false;
+	        false=false && true;
+	        return isInputValid && meetscertainCondition;
+	    }
+
+	    public static void main(String[] args) {
+	        Scanner scan=new Scanner(System.in);
+	        System.out.println("Is input valid (true/false):");
+	        boolean first=scan.nextBoolean();
+	        System.out.println("Does input meet a certain condition (true/false):");
+	        boolean second=scan.nextBoolean();
+	        boolean isValid = isValidInput(isInputValid, meetscertainCondition);
+
+	        if (isValid) {
+	            System.out.println("Input is valid.");
+	        } else {
+	            System.out.println("Input is not valid.");
+	        }
+	    }
+	}
